@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Gloss & Glow Salon</title>
+    <meta name="description" content="Send an enquiry to Gloss & Glow Salon for beauty services and availability.">
+    <meta name="author" content="Gloss & Glow Salon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="hero">
+        <h1 class="hero-title">Service Enquiry 💬</h1>
+        <p class="hero-subtitle">Check availability or request a quote</p>
+        <a href="services.html" class="hero-btn">View Services</a>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="enquiry.html">Enquiry</a>
+    </div>
+
+    <center>
+        <div class="form-card">
+            <h2 class="section-title">Booking Enquiry</h2>
+
+            <form id="enquiryForm">
+                <label for="name"><b>Your Name:</b></label><br>
+                <input type="text" id="name" required><br>
+
+                <label for="service"><b>Select a Service:</b></label><br>
+                <select id="service">
+                    <option value="Hair">Hair Styling</option>
+                    <option value="Nails">Nail Treatments</option>
+                    <option value="Lashes">Eyelash Extensions</option>
+                    <option value="Makeup">Makeup Services</option>
+                    <option value="Facial">Facial Treatments</option>
+                </select><br>
+
+                <label for="date"><b>Preferred Date:</b></label><br>
+                <input type="date" id="date" required><br>
+
+                <label for="notes"><b>Additional Notes (optional):</b></label><br>
+                <textarea id="notes" rows="3"></textarea><br>
+
+                <button type="submit">Submit Enquiry</button>
+            </form>
+
+            <p id="response" style="color:#cc0066; margin-top:15px;"></p>
+        </div>
+    </center>
+
+    <footer>
+        <h3>Gloss & Glow Salon</h3>
+        <p>📍 Johannesburg, South Africa</p>
+        <p>📞 083 212 9595</p>
+        <p>📧 info@glossandglow.co.za</p>
+        <p>🕒 Mon–Sat: 9am – 6pm</p>
+        <p style="color:#cc0066; margin-top:15px;">© 2026 Gloss & Glow Salon | All Rights Reserved</p>
+    </footer>
+
+    <a href="https://wa.me/27832129595" target="_blank" style="
+        position:fixed; bottom:20px; right:20px;
+        background:#25D366; color:white;
+        padding:15px 20px; border-radius:50px;
+        font-size:20px; text-decoration:none;
+        box-shadow:0 0 10px rgba(0,0,0,0.3);">
+        💬 WhatsApp Us
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

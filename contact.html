@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Gloss & Glow Salon</title>
+    <meta name="description" content="Contact Gloss & Glow Salon for bookings, questions or more information.">
+    <meta name="author" content="Gloss & Glow Salon">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="hero">
+        <h1 class="hero-title">Contact Us 📞</h1>
+        <p class="hero-subtitle">We’d love to hear from you</p>
+        <a href="enquiry.html" class="hero-btn">Send an Enquiry</a>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="enquiry.html">Enquiry</a>
+    </div>
+
+    <center>
+        <div class="form-card">
+            <h2 class="section-title">Get in Touch</h2>
+            <p>📍 Johannesburg, South Africa</p>
+            <p>📞 083 212 9595</p>
+            <p>📧 info@glossandglow.co.za</p>
+            <p>🕒 Mon–Sat: 9am – 6pm</p>
+        </div>
+    </center>
+
+    <br>
+
+    <center><h2 class="section-title">Find Us</h2></center>
+    <div style="display:flex; justify-content:center; margin-top:20px;">
+        <div id="map" style="height:300px; width:80%; border-radius:10px;"></div>
+    </div>
+
+    <br><br>
+
+    <footer>
+        <h3>Gloss & Glow Salon</h3>
+        <p>📍 Johannesburg, South Africa</p>
+        <p>📞 083 212 9595</p>
+        <p>📧 info@glossandglow.co.za</p>
+        <p>🕒 Mon–Sat: 9am – 6pm</p>
+        <p style="color:#cc0066; margin-top:15px;">© 2026 Gloss & Glow Salon | All Rights Reserved</p>
+    </footer>
+
+    <a href="https://wa.me/27832129595" target="_blank" style="
+        position:fixed; bottom:20px; right:20px;
+        background:#25D366; color:white;
+        padding:15px 20px; border-radius:50px;
+        font-size:20px; text-decoration:none;
+        box-shadow:0 0 10px rgba(0,0,0,0.3);">
+        💬 WhatsApp Us
+    </a>
+
+    <script>
+        var map = L.map('map').setView([-26.2041, 28.0473], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19
+        }).addTo(map);
+
+        L.marker([-26.2041, 28.0473]).addTo(map)
+            .bindPopup("Gloss & Glow Salon – Johannesburg")
+            .openPopup();
+    </script>
+
+</body>
+</html>
+
