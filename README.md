@@ -1,75 +1,146 @@
 # Blossom Beauty Website
 
-## Overview
+📌 Overview
+Gloss & Glow is a modern, professional beauty salon website designed to showcase services, pricing, gallery images, contact details, and an online enquiry form.
+The site is fully responsive, SEO‑ready, and built with clean HTML, CSS, and JavaScript.
 
-Blossom Beauty is a salon website developed to showcase a range of beauty services, including hair, nails, and skincare treatments. The website is designed to be simple, clear, and easy to navigate, allowing users to quickly find information about services, pricing, and contact details.
+This project includes six fully designed pages:
 
-This project was created as part of a first year Web Development assignment, focusing on the use of HTML and basic design principles.
+Home
 
-## Objectives
+About
 
-* To design and develop a functional website using HTML
-* To present information in a clear and organised manner
-* To apply basic layout and formatting techniques
-* To create multiple linked web pages
+Services
 
-## Website Structure
+Gallery
 
-### Home Page
+Contact (with interactive map)
 
-The home page introduces Blossom Beauty and provides a brief overview of the services offered. It is designed to be welcoming and visually appealing.
+Enquiry (with working form + JS)
 
-### Services Page
+✨ Features
+Modern pink-themed UI with clean, professional layout
 
-This page contains detailed information about the services provided, including hair treatments, nail services, and skincare. Prices are also included using tables for clarity.
+Responsive navigation bar across all pages
 
-### About Us Page
+Floating WhatsApp button linked to the salon’s number
 
-The About Us page explains the background of the salon, including its mission and vision. It highlights what makes Blossom Beauty unique.
+SEO‑optimized head tags
 
-### Contact Page
+Interactive Leaflet map centered on Johannesburg
 
-The contact page provides essential details such as phone number, email, and location, allowing customers to get in touch.
+Functional enquiry form with JavaScript confirmation message
 
-## Features
+Consistent footer with hours, contact info, and social links
 
-* Multiple web pages linked together
-* Use of headings, paragraphs, and lists for structure
-* Tables to display pricing
-* Basic styling such as colours and font adjustments
-* Images to improve visual appearance
+Image gallery grid
 
-## Technologies Used
+Service cards with pricing
 
-* HTML5
-* Basic inline styling
+Testimonials section
 
-## How to Use
+Fully mobile-friendly
 
-1. Download or clone the repository
-2. Open the `index.html` file in a web browser
-3. Navigate through the website using the menu links
+📁 Project Structure
+Code
+/project-folder
+│
+├── index.html
+├── about.html
+├── services.html
+├── gallery.html
+├── contact.html
+├── enquiry.html
+│
+├── style.css
+├── script.js
+│
+└── /images
+🛠️ Technologies Used
+HTML5
 
-## Learning Outcomes
+CSS3
 
-Through this project, I learned how to:
+JavaScript (Vanilla)
 
-* Structure a website using HTML
-* Link multiple pages together
-* Use tables and formatting for better presentation
-* Apply simple design principles
+Leaflet.js (for the map)
 
-## Future Improvements
+Google Fonts
 
-* Add external CSS for improved styling
-* Make the website responsive for mobile devices
-* Include JavaScript for interactivity
-* Improve overall layout and design consistency
+Font Awesome Icons
 
-## Author
+📞 WhatsApp Integration
+A floating button appears on every page:
 
-Created by **Layaan Isaacs**
+Opens chat with: +27 83 212 9595
 
-## License
+Always visible for quick bookings
 
-This project is intended for educational purposes only.
+🗺️ Map Integration
+The Contact page uses Leaflet.js to display a map centered on Johannesburg with a custom marker for the salon location.
+
+📬 Enquiry Form
+The enquiry form includes:
+
+Name
+
+Service selection
+
+Preferred date
+
+Additional notes
+
+JavaScript handles:
+
+Form validation
+
+Success message popup
+
+Preventing page reload
+
+🚀 How to Run the Website
+Download the project folder
+
+Open index.html in any browser
+
+Ensure you have internet connection for:
+
+Leaflet map
+
+Google Fonts
+
+Font Awesome icons
+
+📈 Future Improvements
+Online booking system
+
+Admin dashboard for enquiries
+
+Customer reviews database
+
+Dark mode toggle
+
+👩‍💻 Author
+Saafia  
+Gloss & Glow Salon Website Project
+2026
+
+📚 References (Harvard Anglia Style)
+Duckett, J. (2014) HTML & CSS: Design and Build Websites. 1st edn. Wiley.
+
+W3C (2024) HTML Living Standard. Available at: https://html.spec.whatwg.org (html.spec.whatwg.org in Bing) (Accessed: 18 June 2026).
+
+Mozilla Developer Network (MDN) (2024) CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (developer.mozilla.org in Bing) (Accessed: 18 June 2026).
+
+LeafletJS (2024) Leaflet: JavaScript Library for Interactive Maps. Available at: https://leafletjs.com (Accessed: 18 June 2026).
+
+Google Fonts (2024) Font Library. Available at: https://fonts.google.com (Accessed: 18 June 2026).
+
+Font Awesome (2024) Icon Library. Available at: https://fontawesome.com (Accessed: 18 June 2026).
+
+Nielsen Norman Group (2023) 10 Usability Heuristics for User Interface Design. Available at: https://www.nngroup.com/articles/ten-usability-heuristics (nngroup.com in Bing) (Accessed: 18 June 2026).
+
+W3Schools (2024) Responsive Web Design Tutorial. Available at: https://www.w3schools.com/css/css_rwd_intro.asp (w3schools.com in Bing) (Accessed: 18 June 2026).
+
+Google Developers (2024) Web Fundamentals: Responsive Web Design. Available at: https://developers.google.com/web/fundamentals/design-and-ux/responsive (developers.google.com in Bing) (Accessed: 18 June 2026).
+

@@ -24,12 +24,13 @@ if (links) {
                 section.scrollIntoView({ behavior: "smooth" });
 
                 if (navLinks) {
-                    navLinks.classList.remove("active");
+                    navLinks.classList.remove("active"); 
                 }
             }
         });
     });
 }
+
 
 /* ================================
    CONTACT FORM VALIDATION
